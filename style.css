@@ -1,0 +1,42 @@
+
+body{
+    background-color:purple;
+}
+/* Apply  color using class */
+.head{
+    color: blue;
+}
+/* Apply backgound color using id */
+#bglime{
+    background-color: rgb(89, 238, 230);
+    /*   Descendant selector
+    #highlight-red{
+    color:red
+}*/
+}
+/* use Descendant selector*/
+#bglime #highlight-red{
+    color:red
+}
+p,li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:antiquewhite
+}
+#para{
+    color : green
+}
+.param{
+    font-size: x-large;
+    color:black;
+    font-style: normal;
+}
+#textBlue{
+    color: blue;
+}
+.highlight{
+      background-color: yellow;
+}
+.highlight-blue{
+    background-color: blue;
+
+}
